@@ -1,0 +1,677 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Fira Sans" , sans-serif ;
+    background: black;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#header{
+    padding: 40px 0;
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    z-index: 99;
+    backdrop-filter: blur(1.1);
+}
+.header-bg{
+    width: 1170px;
+    height: 62px;
+    background: transparent;
+    border: 3px solid #FF0000;
+    backdrop-filter: blur(7.5px);
+    border-radius: 12px;
+    margin-left: 93px;
+    padding: 0 24px;
+}
+.header-bg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-a a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0 20px;
+}
+.header-bg button {
+    width: 209px;
+    height: 46px;
+    border: 3px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    background: #00FFCB;
+}
+#hero{
+    position: relative;
+}
+.hero{
+    position: absolute;
+    top: 159px;
+    left: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-title{
+    width: 477px;
+    height: 477px;
+    background: #cb07c4;
+    filter: blur(150px);
+    margin-left: 425px;
+}
+.hero h1{
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 144px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    z-index: 99;
+}
+.hero h3{
+    font-weight: 700;
+    font-size: 33px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    z-index: 99;
+    padding: 40px 0;
+    text-align: center;
+}
+.hero button{
+    width: 160px;
+    height: 40px;
+    background: #cb1bd3;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.065em;
+    color: #000000;
+    z-index: 99;
+}
+.hero p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    z-index: 99;
+    padding: 40px 0;
+}
+.kol2{
+    position: absolute;
+    top: 277px;
+    left: 1px;
+}
+.kol{
+    position: absolute;
+    top: 184px;
+    right: -13px;
+    width: 40%;
+    transform: rotate(11deg);
+}
+#logo{
+    position: relative;
+    padding-top: 282px;
+    padding-left: 88px;
+}
+.logo-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 74px 0;
+}
+.logo h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+.logo p{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 22px;
+}
+.logo-img{
+    width: 196px;
+    height: 196px;
+    background: transparent;
+}
+.logo-img h2{
+    width: 121px;
+    border: 2px solid #FF0000;
+    margin-left: 38px;
+}
+.logo-h h1{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+.logo-h p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+
+.log-h{
+    position: relative;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.but button{
+    width: 176px;
+    height: 44px;
+    background: #bf0fe1;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.065em;
+    color: #000000;
+}
+.but{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#limon{
+    padding-top: 90px;
+}
+.lim{
+
+}
+.limon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.limon-title p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    z-index: 99;
+}
+.limon-red{
+    position: relative;
+    width: 477px;
+    height: 477px;
+    background: #d911be;
+    filter: blur(150px);
+}
+.limon img{
+    position: absolute;
+    left: 151px;
+}
+.limon-bt button{
+    width: 206px;
+    height: 57px;
+    background: #d412d9;
+    border-radius: 51px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: rgb(255, 255, 255);
+}
+.limon-bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgba(129,230,217,1) 0%,rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+}
+
+button::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 3px solid #e10707;
+    box-shadow: 0 0 60px rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+    opacity: 1;
+}
+
+button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid rgba(17, 183, 122, 0.94);
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
+
+
+
+.lime{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lime-title p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    z-index: 99;
+}
+.lime-red{
+    position: relative;
+    width: 477px;
+    height: 477px;
+    background: #da1ed1;
+    filter: blur(150px);
+}
+.lime img{
+    position: absolute;
+    right: 151px;
+}
+.limee{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin: 83px;
+}
+.lime-bt button{
+    width: 206px;
+    height: 57px;
+    background: #d31de8;
+    border-radius: 51px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+.lime-bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.limon2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.limon2-title p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    z-index: 99;
+}
+.limon2-red{
+    position: relative;
+    width: 477px;
+    height: 477px;
+    background: #e019d6;
+    filter: blur(150px);
+}
+.limon2 img{
+    position: absolute;
+    left: 151px;
+}
+.limon2-bt button{
+    width: 206px;
+    height: 57px;
+    background: #e71ce3;
+    border-radius: 51px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+.limon2-bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.lime2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lime2-title p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    z-index: 99;
+}
+.lime2-red{
+    position: relative;
+    width: 477px;
+    height: 477px;
+    background: #d91fb8;
+    filter: blur(150px);
+}
+
+.lime2 img{
+    position: absolute;
+    right: 151px;
+}
+.lime2-bt button{
+    width: 206px;
+    height: 57px;
+    background: #c21bb9;
+    border-radius: 51px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+.lime2-bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lime2-but{
+   position: absolute;
+    top: 450px;
+}
+.lime2-but button{
+    width: 176px;
+    height: 44px;
+    background: #D219C8FF;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.065em;
+    color: #000000;
+}
+
+
+
+#swiper{
+    padding: 90px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards{
+    width: 958px;
+    height: 384px;
+    border-radius: 10px;
+}
+.cards2{
+    color: #D81010;
+}
+.card{
+    padding-top: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+.card p{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: rgb(118, 118, 118);
+    margin-left: 10px;
+}
+.card p span{
+    color: #D81010;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.card img{
+    width:6%;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+.sw-p p span{
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+.sw-p p{
+    font-weight: 700;
+    font-size: 15px;
+    text-align: start;
+    letter-spacing: 0.065em;
+    color: rgba(12, 12, 25, 0.56);
+    padding: 10px 0;
+}
+.sw-ion{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 600px;
+}
+.card1 a{
+    color:darkorange;
+    font-size: 18px;
+}
+.sw-ion a{
+    color:red;
+    font-size: 17px;
+}
+.sw-sw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+.sw-sw button{
+    width: 176px;
+    height: 44px;
+    background: #d219c8;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.065em;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.fod-input{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding: 20px;
+}
+.fod-input h1{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+.fod-input p{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+.footer-title label input{
+    width: 370px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    margin: 30px;
+}
+.footer label textarea{
+    width: 812px;
+    height: 133px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    text-align: center;
+}
+.footer-title h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-title{
+    margin: 20px;
+}
+.footer button {
+    width: 188px;
+    height: 54px;
+    background: #D219C8FF;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #000000;
+    margin-left: -603px;
+}

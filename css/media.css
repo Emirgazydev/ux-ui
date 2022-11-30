@@ -1,0 +1,946 @@
+@media (max-width: 1440px) {
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width: 1200px) {
+    .header-bg {
+        width: 1008px;
+        height: 62px;
+        margin-left: 60px;
+    }
+
+    .hero {
+        left: 341px;
+    }
+
+    .kol {
+        display: none;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .images2 {
+        display: none;
+    }
+
+    .logo p {
+        font-size: 20px;
+    }
+
+    .logo p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1024px) {
+    .header-bg {
+        width: 811px;
+        height: 58px;
+        margin-left: 60px;
+    }
+    .hero h1 {
+        font-size: 130px;
+    }
+    .hero h3 {
+        font-size: 29px;
+    }
+    .hero p {
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .kol2 {
+        position: absolute;
+        top: 298px;
+        width: 35%;
+        left: 1px;
+    }
+    .hero {
+        left: 269px;
+    }
+    .hero-title {
+        margin-left: 277px;
+    }
+    .logo p {
+        font-size: 13px;
+    }
+    .header-bg button {
+        width: 177px;
+        height: 35px;
+        font-size: 18px;
+    }
+    .limon img {
+        position: absolute;
+        left: 90px;
+        width: 33%;
+    }
+    .limon-bt button {
+        width: 178px;
+        height: 45px;
+    }
+    .limon-red {
+        width: 402px;
+        height: 434px;
+    }
+
+
+
+    .lime img {
+        position: absolute;
+        right: 53px;
+        width: 33%;
+    }
+
+    .lime-bt button {
+        width: 178px;
+        height: 45px;
+    }
+
+    .lime-red {
+        width: 402px;
+        height: 434px;
+    }
+
+
+    .limon2 img {
+        : absolute;
+        left: 90px;
+        width: 33%;
+    }
+    .limon2-bt button {
+        width: 178px;
+        height: 45px;
+    }
+    .limon2-red {
+        width: 402px;
+        height: 434px;
+    }
+
+
+    .lime2 img {
+        position: absolute;
+        right: 53px;
+        width: 33%;
+    }
+
+    .lime2-bt button {
+        width: 178px;
+        height: 45px;
+    }
+
+    .lime2-red {
+        width: 402px;
+        height: 434px;
+    }
+    .footer-title label input {
+        width: 331px;
+        height: 51px;
+    }
+    .footer label textarea {
+        width: 729px;
+        height: 97px;
+    }
+    .footer button{
+        margin-left: -436px;
+    }
+    .footer img{
+        width: 50%;
+    }
+}
+@media (max-width: 992px) {
+    button::before {
+        content: '';
+        border-radius: 1000px;
+        min-width: calc(233px + 12px);
+        min-height: calc(52px + 12px);
+    }
+    .hero h1 {
+        font-size: 120px;
+    }
+    .hero h3 {
+        font-size: 26px;
+    }
+    button {
+        min-width: 229px;
+        min-height: 52px;
+    }
+    .hero {
+        left: 223px;
+    }
+    .logo-img img{
+        width: 80%;
+    }
+
+    .limon-title p {
+        font-size: 15px;
+    }
+    .limon-title p {
+        font-size: 15px;
+    }
+    .limon2-title p {
+        font-size: 15px;
+    }
+    .lime2-title p {
+        font-size: 15px;
+    }
+    .card1{
+        justify-content: center;
+    }
+    .sw-p p {
+        padding: 10px 139px;
+    }
+    .sw-ion{
+        display: none;
+    }
+    .fod-input p {
+        font-size: 16px;
+    }
+    .fod-input h1 {
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 768px) {
+    button::before {
+        min-width: calc(207px + 12px);
+        min-height: calc(47px + 12px);
+    }
+    .hero p {
+        font-weight: 700;
+        font-size: 19px;
+    }
+    .header-a{
+        display: none;
+    }
+    .header-bg {
+        width: 548px;
+    }
+    .kol2{
+        display: none;
+    }
+    .hero {
+        left: 122px;
+    }
+    .logo p {
+        font-size: 10px;
+    }
+    .log-h{
+        flex-direction: column;
+        padding-bottom: 61px;
+    }
+    .limon-title p {
+        font-size: 12px;
+    }
+    .limon-red {
+        width: 278px;
+        height: 292px;
+    }
+    .limon2-red {
+        width: 278px;
+        height: 292px;
+    }
+    .limon2-title p {
+        font-size: 12px;
+    }
+    .limon2-red {
+        width: 278px;
+        height: 292px;
+    }
+    .lime2-red {
+        width: 278px;
+        height: 292px;
+    }
+    .lime2-title p {
+        font-size: 12px;
+    }
+    .lime2-red {
+        width: 278px;
+        height: 292px;
+    }
+     .lime-red {
+        width: 278px;
+        height: 292px;
+    }
+    .lime-title p {
+        font-size: 12px;
+    }
+    .lime-red {
+        width: 278px;
+        height: 292px;
+    }
+    button {
+        min-width: 207px;
+        min-height: 52px;
+    }
+    .sw-p p {
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .footer label textarea {
+        width: 353px;
+        height: 59px;
+        margin-left: -239px;
+    }
+    .hero-title {
+        margin-left: 99px;
+    }
+    .cards {
+        height: 351px;
+    }
+}
+@media(max-width: 576px) {
+    .header-bg {
+        width: 408px;
+        margin-left: 36px;
+    }
+    button {
+        min-width: 169px;
+        min-height: 52px;
+    }
+    .header-bg button {
+        width: 177px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .hero h1 {
+        font-size: 100px;
+    }
+    .hero h3 {
+        font-size: 23px;
+    }
+    .hero p {
+        font-size: 15px;
+    }
+    .hero {
+        left: 87px;
+    }
+    .hero-title {
+        width: 381px;
+        height: 388px;
+        margin-left: 66px;
+    }
+    .logo p {
+        font-size: 10px;
+    }
+    .logo-img p {
+        font-size: 18px;
+        margin-left: -37px;
+    }
+    .logo-img h2{
+        display: none;
+    }
+    .logo p {
+        font-size: 10px;
+        padding-bottom: 50px;
+    }
+    .limon img {
+        position: absolute;
+        left: 46px;
+        width: 30%;
+    }
+    .limon-red {
+        width: 170px;
+        height: 301px;
+    }
+    .limon-title p {
+        font-size: 10px;
+    }
+    .limon-bt button {
+        width: 145px;
+        height: 42px;
+    }
+    .limon-bt button {
+        font-size: 12px;
+    }
+    button {
+        min-width: 145px;
+        min-height: 48px;
+    }
+    .but button{
+        font-size: 10px;
+    }
+    .hero button{
+        font-size: 10px;
+    }
+    .limon2 img {
+        position: absolute;
+        left: 46px;
+        width: 30%;
+    }
+    .limon2-red {
+        width: 170px;
+        height: 301px;
+    }
+    .limon2-title p {
+        font-size: 10px;
+    }
+    .limon2-bt button {
+        width: 145px;
+        height: 42px;
+    }
+    .limon2-bt button {
+        font-size: 12px;
+    }
+    .lime img {
+        right: 37px;
+        width: 30%;
+    }
+    .lime-red {
+        width: 188px;
+        height: 240px;
+    }
+    .lime-title p {
+        font-size: 10px;
+    }
+    .lime-bt button {
+        width: 166px;
+        height: 45px;
+        font-size: 13px;
+    }
+    .lime2 img {
+        right: 37px;
+        width: 30%;
+    }
+    .lime2-red {
+        width: 188px;
+        height: 240px;
+    }
+    .lime2-title p {
+        font-size: 10px;
+    }
+    .lime2-bt button {
+        width: 166px;
+        height: 45px;
+        font-size: 13px;
+    }
+    button::before {
+        min-width: calc(173px + 12px);
+        min-height: calc(43px + 12px);
+    }
+    .card{
+        justify-content: center;
+    }
+    .card1{
+        display: none;
+    }
+    .sw-p p {
+        padding: 13px 49px;
+    }
+    .footer-title h1 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .footer-title label input {
+        width: 240px;
+        height: 31px;
+    }
+    .footer label textarea {
+        width: 245px;
+        height: 44px;
+        margin-left: -170px;
+    }
+    .footer button {
+        width: 171px;
+        height: 49px;
+        margin-left: -228px;
+        font-size: 15px;
+    }
+    .footer img {
+        width: 70%;
+    }
+
+}
+@media (max-width: 451px) {
+    .header-bg {
+        width: 321px;
+        margin-left: 30px;
+    }
+    .hero h1 {
+        font-size: 80px;
+    }
+    .hero h3 {
+        font-size: 20px;
+    }
+    .hero p {
+        font-size: 12px;
+    }
+    .hero {
+        left: 65px;
+    }
+    .hero-title {
+        width: 241px;
+        height: 438px;
+        margin-left: 82px;
+    }
+    .but button {
+        width: 147px;
+        height: 44px;
+    }
+    button::before {
+        min-width: calc(140px + 12px);
+        min-height: calc(36px + 12px);
+    }
+    .logo-title{
+        padding: 0;
+    }
+    .limon-title p {
+        font-size: 8px;
+    }
+    button {
+        min-width: 123px;
+        min-height: 41px;
+    }
+    .limon2-title p {
+        font-size: 8px;
+    }
+
+    .lime2-title p {
+        font-size: 8px;
+    }
+    .lime-title p {
+        font-size: 8px;
+    }
+    .lime-bt button {
+        width: 144px;
+        height: 45px;
+        font-size: 12px;
+    }
+    .sw-p p span {
+        font-size: 15px;
+    }
+    .sw-p p {
+        font-size: 11px;
+    }
+    .sw-p p {
+        padding: 8px 37px;
+    }
+    .sw-sw button {
+        width: 147px;
+        height: 45px;
+    }
+    .footer label textarea {
+        width: 243px;
+        height: 35px;
+        margin-left: -54px;
+    }
+    .fod-input h1 {
+        font-size: 15px;
+    }
+    .fod-input p {
+        font-size: 13px;
+    }
+    .fod-input {
+        padding: 31px;
+    }
+    .footer button {
+        width: 142px;
+        height: 34px;
+        margin-left: -146px;
+    }
+
+}
+@media (max-width: 400px) {
+    .header-bg img{
+        width: 20%;
+    }
+    .header-bg button {
+        width: 142px;
+        height: 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .header-bg {
+        width: 284px;
+        margin-left: 14px;
+    }
+    .hero h1 {
+        font-size: 70px;
+    }
+    .hero h3 {
+        font-size: 17px;
+    }
+    .hero button {
+        width: 146px;
+        height: 40px;
+    }
+    .hero p {
+        font-size: 11px;
+    }
+    .hero {
+        left: 53px;
+    }
+    .logo{
+        margin-left: -73px;
+    }
+    .logo p {
+        font-size: 12px;
+        padding-bottom: 42px;
+    }
+    .hero-title{
+        filter: blur(73px);
+        height: 385px;
+    }
+    .limon-title p {
+        font-size: 7px;
+        padding-bottom: 0;
+    }
+    button {
+        min-width: 107px;
+        min-height: 17px;
+    }
+    button::before {
+        min-width: calc(102px + 12px);
+        min-height: calc(30px + 12px);
+    }
+    .limon-bt button {
+        font-size: 9px;
+        height: 36px;
+    }
+    .limon2-title p {
+        font-size: 7px;
+    }
+    .limon2-bt button {
+        font-size: 9px;
+        height: 36px;
+    }
+    .lime-bt button {
+        font-size: 9px;
+        height: 36px;
+    }
+    .sw-p p span {
+        font-size: 13px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        color: transparent;
+    }
+    .footer label textarea {
+        width: 243px;
+        height: 35px;
+        margin-left: -16px;
+    }
+    .footer img {
+        width: 90%;
+        padding-top: 67px;
+    }
+    .lime-red {
+        width: 157px;
+        height: 147px;
+        filter: blur(24px);
+    }
+     .limon-red {
+        width: 157px;
+        height: 170px;
+        filter: blur(24px);
+    }
+    .limon2-red {
+        width: 157px;
+        height: 147px;
+        filter: blur(24px);
+    }
+    .limon{
+        padding: 30px 0;
+    }
+
+    .limon2 {
+        padding: 30px 0;
+    }
+
+    .lime2 {
+        padding: 30px 0;
+    }
+
+    .lime {
+        padding: 30px 0;
+    }
+    .lime-title p {
+        padding-bottom: 0;
+        font-size: 7px;
+    }
+    .lime2-title p {
+        padding-bottom: 0;
+        font-size: 7px;
+    }
+    .lime2-red {
+        width: 157px;
+        height: 147px;
+        filter: blur(24px);
+    }
+}
+@media (max-width: 376px) {
+    .header-bg {
+        height: 43px;
+        width: 263px;
+    }
+    .header-bg button {
+        width: 115px;
+        height: 10px;
+        font-size: 9px;
+    }
+    .hero h1 {
+        font-size: 60px;
+    }
+    .hero h3 {
+        font-size: 14px;
+    }
+    .hero button {
+        width: 131px;
+        height: 33px;
+    }
+    button::before {
+        min-width: calc(123px + 12px);
+        min-height: calc(25px + 12px);
+    }
+    .hero p {
+        font-size: 9px;
+    }
+    .hero {
+        left: 72px;
+    }
+    .logo h1 {
+        font-size: 30px;
+    }
+    .logo p {
+        font-size: 10px;
+    }
+    .logo-img img {
+        width: 60%;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .logo p {
+        font-size: 9px;
+    }
+    .but button {
+        width: 130px;
+        height: 34px;
+    }
+    .limon-red {
+        width: 141px;
+        height: 135px;
+        filter: blur(23px);
+    }
+    .limon img {
+        left: 30px;
+        width: 30%;
+    }
+    .limon-bt button {
+        width: 132px;
+        height: 32px;
+    }
+    .limon-title p {
+        font-size: 6px;
+        padding-bottom: 0;
+    }
+    .limon2-red {
+        width: 141px;
+        height: 135px;
+        filter: blur(23px);
+    }
+    .limon2 img {
+        position: absolute;
+        left: 30px;
+        width: 30%;
+    }
+    .limon2-bt button {
+        width: 132px;
+        height: 32px;
+    }
+    .limon2-title p {
+        font-size: 6px;
+        padding-bottom: 0;
+    }
+    .lime-red {
+        width: 145px;
+        height: 134px;
+        filter: blur(22px);
+    }
+    .lime img {
+        right: 28px;
+        width: 30%;
+    }
+    .lime2-title p {
+        font-size: 6px;
+        padding-bottom: 0;
+    }
+    .lime2-red {
+        width: 145px;
+        height: 134px;
+        filter: blur(22px);
+    }
+    .lime2 img {
+        right: 28px;
+        width: 30%;
+    }
+    .lime-title p {
+        font-size: 6px;
+        padding-bottom: 0;
+    }
+    .sw-sw button {
+        width: 131px;
+        height: 33px;
+        font-size: 9px;
+    }
+    .fod-input p {
+        font-size: 10px;
+    }
+    .footer button {
+        width: 124px;
+        height: 31px;
+        margin-left: -132px;
+    }
+
+}
+@media(max-width: 320px) {
+    .header-bg {
+        height: 34px;
+        width: 218px;
+    }
+    .header-bg button {
+        width: 2px;
+        height: 1px;
+        font-size: 7px;
+    }
+    .hero h1 {
+        font-size: 50px;
+    }
+    .hero h3 {
+        font-size: 10px;
+    }
+    .hero button {
+        width: 107px;
+        height: 27px;
+    }
+    button::before {
+        min-width: calc(102px + 12px);
+        min-height: calc(18px + 12px);
+    }
+    .hero button {
+        font-size: 7px;
+    }
+    .hero p {
+        font-size: 8px;
+    }
+    .hero {
+        left: 55px;
+    }
+    .hero-title {
+        filter: blur(73px);
+        height: 361px;
+        width: 149px;
+        margin-left: 82px;
+    }
+    .logo p {
+        font-size: 7px;
+    }
+    .but button {
+        width: 109px;
+        height: 28px;
+        font-size: 7px;
+    }
+    .limon-red {
+        width: 123px;
+        height: 108px;
+        filter: blur(17px);
+    }
+    .limon img {
+        left: 24px;
+        width: 30%;
+    }
+    .limon-title p {
+        font-size: 5px;
+        padding-bottom: 8px;
+    }
+    .limon-bt button {
+        width: 104px;
+        height: 26px;
+        font-size: 7px;
+    }
+    .limon2-red {
+        width: 123px;
+        height: 108px;
+        filter: blur(17px);
+    }
+    .limon2 img {
+        left: 24px;
+        width: 30%;
+    }
+    .limon2-title p {
+        font-size: 5px;
+        padding-bottom: 8px;
+    }
+    .limon2-bt button {
+        width: 104px;
+        height: 26px;
+        font-size: 7px;
+    }
+    .lime-red {
+        width: 123px;
+        height: 108px;
+        filter: blur(17px);
+    }
+    .lime-title p {
+        font-size: 5px;
+        padding-bottom: 8px;
+    }
+    .lime-bt button {
+        width: 104px;
+        height: 26px;
+        font-size: 7px;
+    }
+    .lime2-red {
+        width: 123px;
+        height: 108px;
+        filter: blur(17px);
+    }
+    .lime2-title p {
+        font-size: 5px;
+        padding-bottom: 8px;
+    }
+    .lime2-bt button {
+        width: 104px;
+        height: 26px;
+        font-size: 7px;
+    }
+    .lime2-but button {
+        display: none;
+    }
+    .sw-sw button {
+        display: none;
+    }
+    .sw-p p span {
+        font-size: 10px;
+    }
+    .sw-p p {
+        font-size: 8px;
+    }
+    .card p {
+        font-size: 13px;
+    }
+    .card p span {
+        font-size: 14px;
+    }
+    .cards {
+        height: 291px;
+    }
+    .footer-title label input {
+        width: 183px;
+        height: 18px;
+    }
+    .footer label textarea {
+        width: 197px;
+        height: 35px;
+        margin-left: -6px;
+    }
+    .fod-input p {
+        font-size: 6px;
+    }
+    .footer button {
+        width: 88px;
+        height: 28px;
+        margin-left: -107px;
+        font-size: 9px;
+    }
+
+}
